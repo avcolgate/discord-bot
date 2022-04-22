@@ -1,3 +1,4 @@
+from token import TOKEN
 from email.mime import image
 from pydoc import cli
 from time import sleep
@@ -20,8 +21,6 @@ from images_maker import *
 #client = discord.Client()
 
 client = commands.Bot(command_prefix = "-")
-
-TOKEN = 'OTM0NTY5Mjk1MTIyNDMyMTQx.Yex_ew.1M9TPhMJcuBb1ViBPO1geF81Vsw'
 
 @client.event
 async def on_ready():
